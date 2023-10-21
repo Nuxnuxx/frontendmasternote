@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.7em;
+  padding: 1em;
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  padding: 20px;
+}
+
+.nav:hover{
+  transform: translateY(20px);
+}

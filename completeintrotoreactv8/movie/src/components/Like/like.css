@@ -1,0 +1,19 @@
+button {
+  all:unset;
+  border-radius: 50%;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.not-like {
+  background-color: green;
+}
+
+.already-like {
+  background-color: gray;
+  cursor: default;
+}
+
+.not-like:hover {
+  background-color: limegreen;
+}

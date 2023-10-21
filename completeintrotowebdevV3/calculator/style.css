@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  all: unset;
+  width: 24.5%;
+  cursor: pointer;
+  background-color: #d8d9db;
+}
+
+button:hover{
+  background-color: white;
+}
+
+.wrapper {
+  background-color: black;
+  width: 400px;
+  height: 400px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: .5%;
+  height: 16.6%;
+}
+
+
+.calcul {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.zero {
+  width: 74.9%;
+}
+
+.clear {
+  width: 49.7%;
+}
+
+.percentage,
+.multiplication,
+.substraction,
+.addition,
+.equal {
+  background-color: orange;
+}

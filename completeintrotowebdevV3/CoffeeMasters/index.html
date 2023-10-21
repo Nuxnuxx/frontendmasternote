@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="coffee_masters_logo.png" alt="" class="logo-coffee-master" />
+      <h1 class="title-header">Coffee Masters</h1>
+    </header>
+    <main class="main">
+      <div class="box-wrapper">
+        <div class="items box">
+          <div class="title-box">ITEMS</div>
+          <div class="item-wrapper">
+            <div class="item">
+              <div class="quantity">1x</div>
+              <div class="description">
+                <div class="title">Cappuccino</div>
+                <div class="moreinfo">Lite foam</div>
+              </div>
+              <div class="price">$3.35</div>
+            </div>
+            <div class="line"></div>
+            <div class="item">
+              <div class="quantity">1x</div>
+              <div class="description">
+                <div class="title">Cappuccino</div>
+                <div class="moreinfo">Lite milk</div>
+                <div class="moreinfo">Double expresso</div>
+              </div>
+              <div class="price">$3.85</div>
+            </div>
+            <div class="line"></div>
+            <div class="item">
+              <div class="quantity">1x</div>
+              <div class="description">
+                <div class="title">Croissant</div>
+                <div class="moreinfo">Butter</div>
+              </div>
+              <div class="price">$2.45</div>
+            </div>
+          </div>
+        </div>
+        <div class="name box">
+          <div class="title-box">NAME</div>
+          <div class="group">
+            <label for="name" class="input-label">Name for order</label>
+            <input id="name" type="text" placeholder="Ford Prefect" />
+          </div>
+        </div>
+        <div class="payment box">
+          <div class="title-box">PAYMENT</div>
+          <div class="group">
+            <label for="card" class="input-label">Card Number</label>
+            <input id="card" type="text" placeholder="1234 5678 3456" />
+          </div>
+          <div class="group">
+            <label for="CVV" class="input-label CVV-label">CVV Number</label>
+            <input id="CVV" class="CVV" type="text" placeholder="001" />
+          </div>
+        </div>
+      </div>
+      <div class="checkout">
+        <div class="checkout-lines lines-subtotal">
+          <div class="checkout-text">Subtotal:</div>
+          <div class="checkout-price">$9.65</div>
+        </div>
+        <div class="checkout-lines">
+          <div class="checkout-text">Tax:</div>
+          <div class="checkout-price">$0.82</div>
+        </div>
+        <div class="checkout-lines bold">
+          <div class="checkout-text">Total:</div>
+          <div class="checkout-price">$10.47</div>
+        </div>
+        <button class="btn-order">Place order</button>
+      </div>
+    </main>
+  </body>
+</html>

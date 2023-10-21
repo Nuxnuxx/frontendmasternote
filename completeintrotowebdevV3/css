@@ -1,0 +1,38 @@
+CSS -> style of the page
+
+en cascade
+c a dire que les id on plus d'importance que les classes et les tags 
+tags 1
+tags+class 11
+tags+id 101
+style property 1000
+class 10 
+tags+class+class 21
+id+tag+id 201
+
+pour resumer
+tags 1 
+class 10 
+id 100 
+style property 1000 
+
+: pseudo class (first child)
+:: pseudo elements (after, before)
+
+float : right and left og thing
+
+si un span quelquepart obligatoirement display inline donc width et height marche pas
+inline-block : flow like text but width and height
+margin : space outside elements between it and other elements
+padding : push the interior things inside of it
+
+box-sizing: border-box ( make the border include in the width)
+
+with flex if you align item stretch and delete heigh of the box inside they stretch to the the same height of the parent
+
+flex grow : 
+marche comme un total 1 5 10 donnera des div proportionnelle a 16 donc 1/16 5/16 etc
+
+grid trop style apprendre les grid VITE
+
+position relative pour faire de labsolute a linterieur

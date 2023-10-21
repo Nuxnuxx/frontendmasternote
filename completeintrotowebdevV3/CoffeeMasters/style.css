@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #412316;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #e5daad;
+  font-size: 6px;
+  height: 74px;
+}
+
+.logo-coffee-master {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.main {
+  background-color: #f0f0f0;
+  height: 100%;
+}
+
+.box-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "items name"
+    "items payment"
+    ". payment";
+}
+
+.line {
+  height: inherit;
+  border: 1px solid #e6ccb4;
+  margin: 15px;
+}
+
+.items {
+  grid-area: items;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.name {
+  grid-area: name;
+  height: 150px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.quantity {
+  margin-right: 10px;
+}
+
+.box {
+  border-radius: 5px;
+  background-color: #eee1d5;
+  margin: 50px;
+  padding: 15px;
+  color: black;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment {
+  grid-area: payment;
+  margin-top: 0;
+  height: 230px;
+}
+
+.description {
+  color: #ae8c6d;
+}
+
+.moreinfo {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.price {
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+.title {
+  color: black;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.title-box {
+  color: #a17c58;
+  padding-bottom: 30px;
+}
+
+.group {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border-radius: 50px;
+  border: 2px solid #bc9f85;
+  padding: 8px;
+  padding-left: 24px;
+  width: 100%;
+  background-color: #eee1d5;
+}
+
+input.CVV {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.input-label {
+  background-color: #eee1d5;
+  color: #b19072;
+  font-size: 11px;
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  padding: 0 2px;
+}
+
+label.input-label.CVV-label {
+  top: 13px;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.checkout-lines {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.checkout-price {
+  margin-left: auto;
+}
+
+.btn-order {
+  background-color: #deb993;
+  border-radius: 50px;
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+  border: none;
+}
+
+.bold {
+  font-weight: bold;
+}
