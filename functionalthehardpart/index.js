@@ -1,7 +1,14 @@
-const add = (a, b) => a + b
+const multiply = (a, b) => a * b
 
-const summed = [1,2,3].filter()
-console.log(summed)
-summed.reduce(add, 0)
+function prefillFunction (fn, prefilledValue) {
+	const inner = (liveInput) => {
+		const output = fn(liveInput, prefilledValue)
+		return output
+	}
+	return inner
+}
 
-console.log(summed)
+const multiplyBy2 = prefillFunction(multiply, 2)
+
+const result = multiplyBy2(5)
+console.log(result)
